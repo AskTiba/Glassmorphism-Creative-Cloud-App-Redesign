@@ -64,3 +64,23 @@ body {
      padding: 0.8em;
     }
    }
+
+   .light-mode {
+    .dark-light svg {
+     fill: transparent;
+     stroke: var(--theme-color);
+    }
+     .profile-img {
+      border: 2px solid var(--theme-bg-color)
+     }
+     .content-section ul{
+      background-color: var(--theme-bg-color);
+     }
+     .pop-up__title {
+      border-color: var(--theme-color);
+     }
+     .dropdown.is-active ul {
+      background-color:rgb(255 255 255 / 94%);
+     }
+    }
+    
