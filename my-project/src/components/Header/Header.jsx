@@ -14,7 +14,7 @@ const Header = () => {
           <a
             className="menu-link py-[20px] px-[30px] text-[--inactive-color] 
     border-b-2 border-solid border-transparent hover:border-[--theme-color]
-     hover:border-b-2 transition duration-300"
+     hover:border-b-2 transition duration-300 hover:text-[--theme-color]"
             href="#"
           >
             Apps 🫡
@@ -23,7 +23,7 @@ const Header = () => {
           <a
             className="menu-link  py-[20px] px-[30px] text-[--inactive-color] 
           border-b-2 border-solid border-transparent hover:border-[--theme-color]
-     hover:border-b-2 transition duration-300 notify relative"
+     hover:border-b-2 transition duration-300 hover:text-[--theme-color] notify relative"
             href="#"
           >
             Your work 🥷
@@ -31,7 +31,7 @@ const Header = () => {
           <a
             className="menu-link py-[20px] px-[30px] text-[--inactive-color] 
           border-b-2 border-solid border-transparent hover:border-[--theme-color]
-     hover:border-b-2 transition duration-300"
+     hover:border-b-2 transition duration-300 hover:text-[--theme-color]"
             href="#"
           >
             Discover 🚀
@@ -39,16 +39,17 @@ const Header = () => {
           <a
             className="menu-link py-[20px] px-[30px] text-[--inactive-color] 
           border-b-2 border-solid border-transparent hover:border-[--theme-color]
-     hover:border-b-2 transition duration-300 notify"
+     hover:border-b-2 transition duration-300 hover:text-[--theme-color] notify"
             href="#"
           >
             Market ⚖️
           </a>
         </div>
-        <div className="search-bar flex h-[40px] w-full max-w-[400px] pl-[16px] rounded-[4px] ">
+        <div className="search-bar flex h-[40px] w-full max-w-[400px] pl-[16px] rounded-[4px]">
           <input
-            className="h-full w-full border-none bg-[--search-bg] font-[500] text-[15px]
-            py-0 pr-[20px] pl-[l40px] shadow-input"
+            className="h-full w-full border-none bg-[--search-bg] text-[15px]
+            py-0 pr-[20px] pl-[40px] shadow-input font-body font-[500] rounded-[4px] 
+            bg-no-repeat text-[--theme-color]"
             type="text"
             placeholder="Search"
           />
