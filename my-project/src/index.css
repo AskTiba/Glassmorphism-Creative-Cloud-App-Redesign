@@ -49,73 +49,42 @@ html {
 }
 
 body {
-    font-family: var(--body-font);
-    background-image: url(https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 2em;
-    width: 100%;
-    height: 100vh;
-    @media screen and (max-width: 480px) {
-     padding: 0.8em;
-    }
-   }
+  font-family: var(--body-font);
+  background-image: url(https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em;
+  width: 100%;
+  height: 100vh;
+  @media screen and (max-width: 480px) {
+    padding: 0.8em;
+  }
+}
 
-   .light-mode {
-    .dark-light svg {
-     fill: transparent;
-     stroke: var(--theme-color);
-    }
-     .profile-img {
-      border: 2px solid var(--theme-bg-color)
-     }
-     .content-section ul{
-      background-color: var(--theme-bg-color);
-     }
-     .pop-up__title {
-      border-color: var(--theme-color);
-     }
-     .dropdown.is-active ul {
-      background-color:rgb(255 255 255 / 94%);
-     }
-    }
-    
-    .header {
-      display: flex;
-      align-items: center;
-      flex-shrink: 0;
-      height: 58px;
-      width: 100%;
-      border-bottom: 1px solid var(--border-color);
-      padding: 0 30px;
-      white-space: nowrap;
-      @media screen and (max-width: 480px) {
-       padding: 0 16px;
-      }
-      &-menu {
-       display: flex;
-       align-items: center;
-       a {
-        padding: 20px 30px;
-        text-decoration: none;
-        color: var(--inactive-color);
-        border-bottom: 2px solid transparent;
-        transition: 0.3s;
-        @media screen and (max-width: 610px) {
-         &:not(.main-header-link) {
-          display: none;
-         }
-        }
-        &.is-active,
-        &:hover {
-         color: var(--theme-color);
-         border-bottom: 2px solid var(--theme-color);
-        }
-       }
-      }
-     }
-     
+img {
+  max-width: 100%;
+}
+.light-mode {
+  .dark-light svg {
+    fill: transparent;
+    stroke: var(--theme-color);
+  }
+  .profile-img {
+    border: 2px solid var(--theme-bg-color);
+  }
+  .content-section ul {
+    background-color: var(--theme-bg-color);
+  }
+  .pop-up__title {
+    border-color: var(--theme-color);
+  }
+  .dropdown.is-active ul {
+    background-color: rgb(255 255 255 / 94%);
+  }
+}
+
+
