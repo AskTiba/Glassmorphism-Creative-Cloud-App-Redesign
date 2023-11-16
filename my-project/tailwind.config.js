@@ -4,6 +4,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        'body': ['var(--body-font)', 'sans-serif'],
+      },
       maxWidth: {
         1250: "1250px",
       },
